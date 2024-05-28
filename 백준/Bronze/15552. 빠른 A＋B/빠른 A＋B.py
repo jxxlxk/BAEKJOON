@@ -1,0 +1,6 @@
+import sys
+input = sys.stdin.readline
+a = int(input())
+for i in range(a):
+  n,m = map(int,input().split())
+  print(n+m)
